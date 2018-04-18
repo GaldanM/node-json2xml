@@ -65,7 +65,8 @@ module.exports = function xml(json, opts, field) {
 			}
 		});
 	} else {
-		return json.toString().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+		return json.toString();
+		// return json.toString().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 	}
 
 	return result;
