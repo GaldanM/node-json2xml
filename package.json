@@ -1,7 +1,7 @@
 {
   "name": "node-json2xml",
   "description": "Simple JavaScript Object to XML string converter.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "homepage": "https://github.com/GaldanM/node-json2xml",
   "author": {
     "name": "Galdan MOULINNEUF",
